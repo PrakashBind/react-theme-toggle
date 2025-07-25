@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./App.css";
 import ChildA from "./components/ChildA";
 
+
 // step: 1-create context
 // step:2-wrap the all child inside a provider
 // step:3-pass value
@@ -19,6 +20,7 @@ function App() {
     </>
   );
 }
+
 
 export default App;
 export { UserContext };
